@@ -1,0 +1,161 @@
+*{
+font-family: 'Montserrat';
+margin: 0;
+padding: 0;
+box-sizing:border-box;
+}
+
+header{
+    margin: 44px 0 144px 76px;
+}
+
+.link-header{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    cursor: pointer;
+    margin-right: 23px;
+color: #989D9C;
+
+}
+
+.botao-longin{
+    background: #665AE1;
+border-radius: 20.5px;
+height: 41px;
+width: 130px;
+border: none;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+color: #FFFFFF;
+}
+
+.imagem1{
+    margin-left: 125px;
+    display: inline-block;
+}
+
+section{
+    display:inline-block;
+    margin-left: 87px;
+}
+h1{
+    font-weight: 900;
+font-size: 100px;
+line-height: 122px;
+color: #515151;
+
+}
+h2{
+    font-weight: 500;
+font-size: 58px;
+line-height: 71px;
+color: #515151;
+}
+
+p{
+    font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #848484;
+width: 515px;
+margin-top: 32px;
+margin-bottom: 65px;
+}
+
+.botao-explore{
+    background: #ADFF00;
+border-radius: 20.5px;
+height: 64px;
+width: 239px;
+border: none;
+cursor: pointer;
+filter: drop-shadow(0px 4px 4px) ;
+font-weight: 700;
+font-size: 28px;
+line-height: 34px;
+color: #000000;
+
+}
+
+@media screen and (max-width: 700px){
+
+
+    div{
+
+        width: 100vw;
+        height: 100vh;
+    }
+
+main{
+position: static;
+margin-top: 260px;
+}
+
+header{
+    display: none;
+}
+
+
+.imagem1{
+   
+position: relative;
+width: 90%;
+right: 47px;
+}
+
+h1{
+font-weight: 900;
+font-size: 50px;
+line-height: 61px;
+width: auto;
+text-align: center
+}
+
+h2{
+ font-weight: 500;
+font-size: 30px;
+line-height: 37px;
+width: auto;
+text-align: center
+}
+
+p{
+    display: none;
+}
+
+button{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    width: auto;
+       display: block;
+       margin: 17px auto;
+
+}
+
+
+    section{
+        display: block;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
